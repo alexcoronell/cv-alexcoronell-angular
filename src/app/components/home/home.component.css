@@ -1,0 +1,76 @@
+.main {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#main-title-mobile,
+#main-title-middle,
+#main-title,
+#title-career {
+    text-transform: uppercase;
+}
+
+@media (max-width: 575px) {
+    #main-title-middle {
+        display: none;
+    }
+    #main-image>img {
+        max-width: 280px;
+    }
+}
+
+
+/************************** RESPOSIVE *******************************/
+
+@media (min-width: 576px) {
+    #main-title-mobile {
+        display: none;
+    }
+    .main-content-home {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .main {
+        padding-top: 80px;
+    }
+    #main-title-middle {
+        font-size: 2.4rem !important;
+    }
+    #title-career {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #main-title {
+        display: none;
+    }
+    .display-4 {
+        margin-top: 1rem;
+        font-size: 2.8rem !important;
+    }
+    #title-career>h1 {
+        font-size: 2rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #main-title-middle {
+        display: none;
+    }
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-content-home>#main-title {
+        float: right;
+    }
+}

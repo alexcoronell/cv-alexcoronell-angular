@@ -1,1 +1,167 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #27292b !important;
+}
+
+body {
+    background-color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #27292b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: lighter;
+}
+
+li,
+a,
+p {
+    font-weight: 400;
+}
+
+header,
+footer {
+    height: 50px;
+    background-color: #FFF !important;
+}
+
+.main-separator {
+    margin: 0;
+    border: 2px solid #27292b;
+}
+
+
+/* MAIN */
+
+
+/*************** GENERAL OTHER PAGES **************/
+
+.title-page {
+    font-size: 3rem;
+}
+
+
+/*************** EXPERIENCES PAGE **************/
+
+.business-title>ul {
+    list-style: none;
+}
+
+.business-title>ul>li {
+    padding: .3rem 2rem;
+    border: 1px solid #27292b;
+    margin: .3rem auto;
+    width: 90%;
+}
+
+.business-content>.description {
+    width: 90%;
+    height: 358px;
+    border: 1px solid #27292b;
+    margin: auto;
+}
+
+
+/*************** STUDIES PAGE **************/
+
+.studies-title>ul {
+    list-style: none;
+}
+
+.studies-title>ul>li {
+    padding: .3rem 2rem;
+    border: 1px solid #27292b;
+    margin: .3rem auto;
+    width: 90%;
+}
+
+.studies-content>.description {
+    width: 90%;
+    border: 1px solid #27292b;
+    margin: auto;
+}
+
+
+/*************** TRAINING - MYWORK PAGE **************/
+
+.training-section {
+    width: 100% !important;
+}
+
+.card-body {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+h3.card-text {
+    font-size: 1.7rem;
+}
+
+.card-body>p {
+    margin-bottom: .3rem;
+}
+
+
+/*************** CONTACT PAGE **************/
+
+#contact .myform .form-group {
+    margin-bottom: .5rem;
+}
+
+#contact .myform .form-group>label {
+    margin-bottom: 0;
+}
+
+#contact .myform .form-group>input,
+#contact .myform .form-group>textarea,
+#contact .myform .form-group>button {
+    border-radius: 0 !important;
+    border: 1px solid #27292b !important;
+}
+
+#contact .myform .form-group>button {
+    width: 100%;
+}
+
+
+/************************** RESPOSIVE *******************************/
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .main {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    /*************** STUDIES PAGE **************/
+    .studies-title>ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .studies-title>ul>li {
+        width: 18%;
+        padding: .5rem;
+    }
+    .studies-content>.description {
+        width: 500px;
+        min-height: 300px;
+    }
+}
