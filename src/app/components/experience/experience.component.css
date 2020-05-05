@@ -1,0 +1,19 @@
+/*************** EXPERIENCES PAGE **************/
+
+.business-title>ul {
+    list-style: none;
+}
+
+.business-title>ul>li {
+    padding: .3rem 2rem;
+    border: 1px solid #27292b;
+    margin: .3rem auto;
+    width: 90%;
+}
+
+.business-content>.description {
+    width: 90%;
+    height: 358px;
+    border: 1px solid #27292b;
+    margin: auto;
+}

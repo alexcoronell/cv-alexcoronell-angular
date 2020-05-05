@@ -1,0 +1,37 @@
+/*************** STUDIES PAGE **************/
+
+.studies-title>ul {
+    list-style: none;
+}
+
+.studies-title>ul>li {
+    padding: .3rem 2rem;
+    border: 1px solid #27292b;
+    margin: .3rem auto;
+    width: 90%;
+}
+
+.studies-content>.description {
+    width: 90%;
+    border: 1px solid #27292b;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    /*************** STUDIES PAGE **************/
+    .studies-title>ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .studies-title>ul>li {
+        width: 18%;
+        padding: .5rem;
+    }
+    .studies-content>.description {
+        width: 500px;
+        min-height: 300px;
+    }
+}

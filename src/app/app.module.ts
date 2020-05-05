@@ -16,7 +16,12 @@ import { ContactComponent } from './components/contact/contact.component';
 
 
 const routes: Routes = [
-  {path: '', component: HomeComponent}
+  {path: '', component: HomeComponent},
+  {path: 'experience', component: ExperienceComponent},
+  {path: 'studies', component: StudiesComponent},
+  {path: 'training', component: TrainingComponent},
+  {path: 'mywork', component: MyworkComponent},
+  {path: 'contact', component: ContactComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,20 @@
+/*************** CONTACT PAGE **************/
+
+#contact .myform .form-group {
+    margin-bottom: .5rem;
+}
+
+#contact .myform .form-group>label {
+    margin-bottom: 0;
+}
+
+#contact .myform .form-group>input,
+#contact .myform .form-group>textarea,
+#contact .myform .form-group>button {
+    border-radius: 0 !important;
+    border: 1px solid #27292b !important;
+}
+
+#contact .myform .form-group>button {
+    width: 100%;
+}

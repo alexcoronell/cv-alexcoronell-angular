@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  completeName = 'Alex Coronell';
+  firstName = 'Alex';
+  lastName = 'Coronell';
+  careerTitle = "Frontend Developer";
+  careerTitle1 = "Frontend";
+  careerTitle2 = "Developer";
   constructor() { }
 
   ngOnInit(): void {

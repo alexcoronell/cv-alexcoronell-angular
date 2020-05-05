@@ -1,0 +1,18 @@
+/*************** TRAINING - MYWORK PAGE **************/
+
+.training-section {
+    width: 100% !important;
+}
+
+.card-body {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+h3.card-text {
+    font-size: 1.7rem;
+}
+
+.card-body>p {
+    margin-bottom: .3rem;
+}
