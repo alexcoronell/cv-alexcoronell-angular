@@ -18,3 +18,17 @@
 #contact .myform .form-group>button {
     width: 100%;
 }
+
+.ico-contact {
+    max-width: 50px;
+    float: right;
+}
+
+.urlContact {
+    text-decoration: none;
+}
+
+.titleContact {
+    margin-bottom: 0;
+    line-height: 50px;
+}
