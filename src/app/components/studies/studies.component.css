@@ -9,6 +9,7 @@
     border: 1px solid #27292b;
     margin: .3rem auto;
     width: 90%;
+    cursor: pointer;
 }
 
 .studies-content>.description {

@@ -10,7 +10,7 @@ export class ExperienceComponent implements OnInit {
   titlePage = "Experiencias";
   experiencesList:object[] = [
     {
-      index: 1,
+      index: 9,
       business: "Micropoint, S. A. S.",
       position: "Analista de Soporte en Sitio",
       place: "Medellín - Antioquia",
@@ -25,7 +25,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 2,
+      index: 8,
       business: "Alianza Gráfica S. A. S.",
       position: "Diseñador Gráfico - Soporte Técnico Konica Minolta",
       place: "Medellín - Antioquia",
@@ -40,22 +40,29 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 3,
+      index: 7,
       business: "Gloditec S. A. S.",
       position: "Técnico en Reparación y Mantenimiento de Impresoras",
       place: "Medellín - Antioquia",
       start: "01/03/2016",
       end: "31/01/2017",
-      functions: []
+      functions: [
+        "Reparación y Mantenimiento de Impresoras Ricoh, Konica Minolta, Sindoh.",
+        "Instalación de impresoras en redes empresariales y corporativas.",
+        "Configuración de impresoras multifuncionales en equipos de computación."
+      ]
     },
     {
-      index: 4,
+      index: 6,
       business: "Inversiones Propc Computer 2011, C. A.",
       position: "Director de Soporte Técnico",
       place: "Caracas - Venezuela",
       start: "2014",
       end: "2016",
-      functions: []
+      functions: [
+        "Coordinación en la implementación, ensamblaje, instalación y puesta en marcha de equipos de computación adquiridos por nuestros clientes corporativos.",
+        "Compra de insumos, periféricos y equipos de computación."
+      ]
     },
     {
       index: 5,
@@ -64,10 +71,33 @@ export class ExperienceComponent implements OnInit {
       place: "Caracas - Venezuela",
       start: "2011",
       end: "2014",
-      functions: []
+      functions: [
+        "Administración de redes alámbricas e inalámbricas.",
+        "Administración de BladeCenter.",
+        "Administración de servidores Linux, Windows Server 2008, Windows Server 2012 (Active Directory, DHCP Server, Print Server, DNS).",
+        "Administración de SQL Server 2008R2.",
+        "Administración básica de MySQL (Respaldos).",
+        "Sincronización de bases de datos.",
+        "Administración de impresoras.",
+        "Soporte técnico de equipos de computación e impresoras.",
+        "Compras de consumibles y equipos.",
+        "Administración de enlaces y conexiones con sucursales mediante VPN y cliente VPN.",
+        "Compra y administración de dominios.",
+        "Administración de servicios de correos electrónicos.",
+        "Administración de Firewall Fortinet.",
+        "Encargado de sistemas en implementación de SAP.",
+        "Administración del sistema captahuellas Anviz.",
+        "Administración de sistema captahuellas bajo el sistema Mantia.",
+        "Administración de sistema AdaptaPro.",
+        "Administración de sistema Lattice.",
+        "Administración de servicios externos de internet. (Cámaras, SAP Router, Telefonía IP).",
+        "Administrador de telefonía IP.",
+        "Diseño e impresión de carnets identificativos.",
+        "Otras relacionadas al área de computación, sistemas y comunicaciones."
+      ]
     },
     {
-      index: 6,
+      index: 4,
       business: "Fundación Ávila TV",
       position: "Practicante - Asistente de Producción",
       place: "Caracas - Venezuela",
@@ -76,7 +106,7 @@ export class ExperienceComponent implements OnInit {
       functions: []
     },
     {
-      index: 7,
+      index: 3,
       business: "Radio Electro Telvis, C. A.",
       position: "Asistente de Sistemas",
       place: "Caracas - Venezuela",
@@ -85,16 +115,18 @@ export class ExperienceComponent implements OnInit {
       functions: []
     },
     {
-      index: 8,
+      index: 2,
       business: "Tecnocorsa, C. A.",
       position: "Técnico en Informática y Sistemas",
       place: "Caracas - Venezuela",
       start: "1998",
       end: "2001",
-      functions: []
+      functions: [
+        
+      ]
     },
     {
-      index: 9,
+      index: 1,
       business: "Hydroclima, S. A.",
       position: "Transcriptor de Datos y Asistente de Contabilidad",
       place: "Caracas - Venezuela",
@@ -105,16 +137,12 @@ export class ExperienceComponent implements OnInit {
   ]
 
 
-public currentIndex:number;
   public loadData(item){
-    let currentIndex = item.index;
-    let currentBusiness = item.business;
     let currentPosition = item.position;
     let currentStart = item.start;
     let currentEnd = item.end;
     let currentFunctions = item.functions;
-    console.log(currentFunctions.length);
-    //console.log(currentFunctions);
+
     let positionName = document.getElementById('positionName');
     positionName.innerHTML = currentPosition;
     let placeName = document.getElementById('placeName');

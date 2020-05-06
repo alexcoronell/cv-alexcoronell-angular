@@ -9,10 +9,19 @@
     padding-bottom: .3rem;
 }
 
+.card-title-training {
+    min-height: 3.5rem;
+}
+
 h3.card-text {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    margin-top: auto;
+}
+
+.trainingimg {
+    min-height: 200px;
 }
 
 .card-body>p {
-    margin-bottom: .3rem;
+    margin-bottom: 0rem;
 }

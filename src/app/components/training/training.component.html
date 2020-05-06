@@ -1,15 +1,15 @@
 <main class="main" id="training">
     <div class="container">
-        <h1 class="title-page text-uppercase text-center text-md-left ml-md-5">Formación</h1>
+        <h1 class="title-page text-uppercase text-center text-md-left ml-md-5">{{ titlePage }}</h1>
         <section class="row">
-            <article class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article *ngFor="let item of trainingList" class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
                 <div class="card training-section">
-                    <div class="card-body">
-                        <h3 class="card-text">Desarrollador JavaScript</h3>
+                    <div class="card-body card-title-training">
+                        <h3 [title]='item.titleTraining2' class="card-text">{{ item.titleTraining }}</h3>
                     </div>
-                    <img src="../../../assets/img/documents/linkedinlearning-desarrolladorjavaScript.jpg" title="Conviértete en Desarrollador JavaScript" class="img-fluid" alt="Conviértete en Desarrollador JavaScript">
+                    <img [src]='item.imagePath' [title]='item.titleTraining2' class="img-fluid trainingimg" [alt]='item.titleTraining2'>
                     <div class="card-body">
-                        <p class="card-text">LinkedIn Learning - 2020</p>
+                        <p class="card-text">{{ item.institution }} - {{ item.end }}</p>
                     </div>
                 </div>
             </article>
