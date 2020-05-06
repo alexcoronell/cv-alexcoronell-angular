@@ -1,4 +1,4 @@
-<main class="main" id="studies">
+<main class="main hide-mobile" id="studies">
     <div class="container">
         <h1 class="title-page text-uppercase text-center text-md-left ml-md-5">{{ titlePage }}</h1>
         <section class="row">
@@ -19,4 +19,22 @@
         </section>
     </div>
 
+</main>
+<main class="main hide-desktop" id="studies">
+    <h1 class="title-page text-uppercase text-center text-md-left ml-md-5">{{ titlePage }}</h1>
+    <section class="row">
+        <article class="col-12 studies-title">
+            <ul>
+                <li class="list" *ngFor="let item of studiesList" class="mobile-titles-article">
+                    {{ item.titleStudio }}
+                    <ul class="list-unstyled ml-4">
+                        <li>{{ item.institution }}</li>
+                        <li>{{ item.place }}</li>
+                        <li>Desde: {{ item.start}} - Hasta {{ item.end }} </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </article>
+    </section>
 </main>
