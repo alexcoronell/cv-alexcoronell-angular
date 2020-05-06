@@ -1,0 +1,31 @@
+[{
+        "id": "1",
+        "business": "Micropoint, S. A. S.",
+        "position": "Analista de Soporte en Sitio",
+        "place": "Medellín - Antioquia",
+        "start": "18/09/2018",
+        "end": "Actualmente",
+        "functions": [
+            "Servicio Técnico a Impresoras Láser, Computadores de escritorio y portátiles.",
+            "Atención al cliente.",
+            "Soporte en la implementación del Centro de Servicios Digitales de Sura.",
+            "Mesa de ayuda y soporte en sitio en Grupo Uribe",
+            "Soporte Totto Antioquia"
+        ]
+    },
+    {
+        "id": "2",
+        "business": "Alianza Gráfica S. A. S.",
+        "position": "Diseñador Gráfico - Soporte Técnico Konica Minolta",
+        "place": "Medellín - Antioquia",
+        "start": "01/02/2017",
+        "end": "23/12/2017",
+        "functions": [
+            "Preparación y montaje de diseños para el proceso de impresión digital.",
+            "Manejor de Adobe Illustrator, Adobe InDesign, Adobe Acrobat, Adobe Photoshop, Enfocus PitStop Pro, Kodak Preps 5.3.",
+            "Operador de equipos de impresión Konica Minolta Bizhub Press C6000 y Konica Minolta Bizhub Press C1085.",
+            "Operador de Controlador Konika Job Centro y Fiery Command Workstation.",
+            "Mantenimiento preventivo y correctivo de impresoras Konica Minolta Bizhub Press C6000 y Konica Minolta Bizhub Press C1085."
+        ]
+    }
+]

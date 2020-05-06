@@ -9,6 +9,7 @@
     border: 1px solid #27292b;
     margin: .3rem auto;
     width: 90%;
+    cursor: pointer;
 }
 
 .business-content>.description {
@@ -16,4 +17,5 @@
     height: 358px;
     border: 1px solid #27292b;
     margin: auto;
+    overflow-y: auto;
 }
