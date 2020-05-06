@@ -32,3 +32,9 @@
     margin-bottom: 0;
     line-height: 50px;
 }
+
+@media (max-width: 576px) {
+    .titleContact {
+        font-size: 1.3rem;
+    }
+}
