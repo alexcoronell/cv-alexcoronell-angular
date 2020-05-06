@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { Directive, Input, OnInit } from '@angular/core';
+import { RouterLinkActive } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
@@ -44,3 +46,21 @@ const routes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
+@Directive({
+  selector: '[routerLinkActive]'
+})
+export class PatchContextRouterLinkActiveDirective implements OnInit {
+
+  @Input("routerLinkActive") context: any;
+
+  constructor(private routerLinkActive: RouterLinkActive) {
+
+  }
+
+  ngOnInit() {
+    this.context._routerLinkActive = this.routerLinkActive;
+  }
+}
