@@ -67,8 +67,20 @@ footer {
 
 /************************** RESPOSIVE *******************************/
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
     .main {
         padding-top: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hide-desktop {
+        display: none;
     }
 }

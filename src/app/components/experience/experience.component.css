@@ -19,3 +19,7 @@
     margin: auto;
     overflow-y: auto;
 }
+
+.mobile-titles-article {
+    font-weight: bold;
+}

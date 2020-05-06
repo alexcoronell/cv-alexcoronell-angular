@@ -10,7 +10,7 @@ export class ExperienceComponent implements OnInit {
   titlePage = "Experiencias";
   experiencesList:object[] = [
     {
-      index: 9,
+      indexs: "#9",
       business: "Micropoint, S. A. S.",
       position: "Analista de Soporte en Sitio",
       place: "Medellín - Antioquia",
@@ -25,7 +25,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 8,
+      index: "#8",
       business: "Alianza Gráfica S. A. S.",
       position: "Diseñador Gráfico - Soporte Técnico Konica Minolta",
       place: "Medellín - Antioquia",
@@ -40,7 +40,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 7,
+      index: "#7",
       business: "Gloditec S. A. S.",
       position: "Técnico en Reparación y Mantenimiento de Impresoras",
       place: "Medellín - Antioquia",
@@ -53,7 +53,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 6,
+      index: "#6",
       business: "Inversiones Propc Computer 2011, C. A.",
       position: "Director de Soporte Técnico",
       place: "Caracas - Venezuela",
@@ -65,7 +65,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 5,
+      index: "#5",
       business: "ATB Constructores, C. A.",
       position: "Coordinador de Sistemas",
       place: "Caracas - Venezuela",
@@ -97,7 +97,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 4,
+      index: "#4",
       business: "Fundación Ávila TV",
       position: "Practicante - Asistente de Producción",
       place: "Caracas - Venezuela",
@@ -106,7 +106,7 @@ export class ExperienceComponent implements OnInit {
       functions: []
     },
     {
-      index: 3,
+      index: "#3",
       business: "Radio Electro Telvis, C. A.",
       position: "Asistente de Sistemas",
       place: "Caracas - Venezuela",
@@ -115,7 +115,7 @@ export class ExperienceComponent implements OnInit {
       functions: []
     },
     {
-      index: 2,
+      index: "#2",
       business: "Tecnocorsa, C. A.",
       position: "Técnico en Informática y Sistemas",
       place: "Caracas - Venezuela",
@@ -126,7 +126,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      index: 1,
+      index: "#1",
       business: "Hydroclima, S. A.",
       position: "Transcriptor de Datos y Asistente de Contabilidad",
       place: "Caracas - Venezuela",
@@ -138,7 +138,8 @@ export class ExperienceComponent implements OnInit {
 
 
   public loadData(item){
-    let currentPosition = item.position;
+    let currentPosition = "Cargo: " + item.position;
+    let currentPlace = "Lugar: " + item.place;
     let currentStart = item.start;
     let currentEnd = item.end;
     let currentFunctions = item.functions;
@@ -146,7 +147,7 @@ export class ExperienceComponent implements OnInit {
     let positionName = document.getElementById('positionName');
     positionName.innerHTML = currentPosition;
     let placeName = document.getElementById('placeName');
-    placeName.innerHTML = item.place;
+    placeName.innerHTML = currentPlace;
     let period = document.getElementById('period');
     let periodText = `Desde: ${currentStart} - Hasta: ${currentEnd}`;
     period.innerHTML = periodText;

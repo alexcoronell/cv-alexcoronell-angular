@@ -1,4 +1,4 @@
-<main class="main" id="experience">
+<main class="main hide-mobile" id="experience">
     <div class="container">
         <h1 class="title-page text-uppercase text-center text-md-left ml-md-5">{{ titlePage }}</h1>
         <section class="row">
@@ -19,5 +19,26 @@
             </article>
         </section>
     </div>
-
 </main>
+<div class="main hide-desktop" id="experience">
+    <div class="container">
+        <h1 class="title-page text-uppercase text-center text-md-left ml-md-5">{{ titlePage }}</h1>
+        <section class="row">
+
+            <article class="col-12 business-title">
+                <ul>
+                    <li class="list" *ngFor="let item of experiencesList" class="mobile-titles-article">
+                        {{ item.business }}
+                        <ul class="list-unstyled ml-4">
+                            <li>{{ item.position }}</li>
+                            <li>{{ item.place }}</li>
+                            <li>Desde: {{ item.start}} - Hasta {{ item.end }} </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </article>
+
+        </section>
+    </div>
+</div>
