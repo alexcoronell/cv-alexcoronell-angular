@@ -10,6 +10,350 @@ export class TrainingComponent implements OnInit {
   titlePage = "Formación";
   trainingList:object[] = [
     {
+      index: 86,
+      titleTraining: "Diseño de interfaz (UI) esencial",
+      titleTraining2: "Diseño de interfaz (UI) esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearning-disenodeinterfazuiesencial.jpeg"
+    },
+    {
+      index: 85,
+      titleTraining: "Creación documentos PDF en PHP",
+      titleTraining2: "Creación documentos PDF en PHP",
+      institution: "Udemy",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/udemy-creaciondocumentospdfenphp.jpeg"
+    },
+    {
+      index: 84,
+      titleTraining: "Aprende MongoDB: Bases de datos NoSQL",
+      titleTraining2: "Aprende MongoDB: Bases de datos NoSQL",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearning-aprendemongodb.jpeg"
+    },
+    {
+      index: 83,
+      titleTraining: "Desarrollo web front-end esencial",
+      titleTraining2: "Desarrollo web front-end esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningdesarrollowebfrontendesencial.jpeg"
+    },
+    {
+      index: 82,
+      titleTraining: "JavaScript Avanzado 1",
+      titleTraining2: "JavaScript Avanzado 1",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningjavaScriptavanzado1.jpeg"
+    },
+    {
+      index: 81,
+      titleTraining: "NodeJS práctico: Sitio web",
+      titleTraining2: "NodeJS práctico: Sitio web",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningnodejspracticositioweb.jpeg"
+    },
+    {
+      index: 80,
+      titleTraining: "NodeJS Esencial",
+      titleTraining2: "NodeJS Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningnodejsesencial.jpeg"
+    },
+    {
+      index: 79,
+      titleTraining: "Aprende JSON",
+      titleTraining2: "Aprende JSON",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearning-aprendejson.jpeg"
+    },
+    {
+      index: 78,
+      titleTraining: "PHP: CodeIgniter",
+      titleTraining2: "PHP: CodeIgniter",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningphpcodeIgniter.jpeg"
+    },
+    {
+      index: 77,
+      titleTraining: "Novedades PHP 7",
+      titleTraining2: "Novedades PHP 7",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningnovedadesphp7.jpeg"
+    },
+    {
+      index: 76,
+      titleTraining: "PHP orientado a objetos",
+      titleTraining2: "PHP orientado a objetos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningphporientadoaobjetos.jpeg"
+    },
+    {
+      index: 75,
+      titleTraining: "PHP avanzado: Herramientas profesionales",
+      titleTraining2: "PHP avanzado: Herramientas profesionales",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningphpavanzadoherramientasprofesionales.jpeg"
+    },
+    {
+      index: 74,
+      titleTraining: "Aprende PHP",
+      titleTraining2: "Aprende PHP",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningaprendephp.jpeg"
+    },
+    {
+      index: 73,
+      titleTraining: "Aprende Visual Studio Code",
+      titleTraining2: "Aprende Visual Studio Code",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningaprendephp.jpeg"
+    },
+    {
+      index: 72,
+      titleTraining: "Laravel esencial",
+      titleTraining2: "Laravel esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearninglaravelesencial.jpeg"
+    },
+    {
+      index: 71,
+      titleTraining: "MySQL esencial",
+      titleTraining2: "MySQL esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningmysqlesencial.jpeg"
+    },
+    {
+      index: 70,
+      titleTraining: "SQL Server 2016: Administración y configuración",
+      titleTraining2: "SQL Server 2016: Administración y configuración",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningsqlserver2016administracionyconfiguracion.jpeg"
+    },
+    {
+      index: 69,
+      titleTraining: "SQL esencial",
+      titleTraining2: "SQL esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningsqlesencial.jpeg"
+    },
+    {
+      index: 68,
+      titleTraining: "Aprende diseño de base de datos relacionales",
+      titleTraining2: "Aprende diseño de base de datos relacionales",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearning-aprendedisenodebasededatosrelacionales.jpeg"
+    },
+    {
+      index: 67,
+      titleTraining: "Fundamentos de la programación: Bases de datos",
+      titleTraining2: "Fundamentos de la programación: Bases de datos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningfundamentosdelaprogramacionbasesdedatos.jpeg"
+    },
+    {
+      index: 66,
+      titleTraining: "Angular práctico: Aplicación web para gestión deportiva",
+      titleTraining2: "Angular práctico: Desarrolla una aplicación web para gestión deportiva",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningangularpracticodesarrollaunaaplicacionwebparagestiondeportiva.jpeg"
+    },
+    {
+      index: 65,
+      titleTraining: "Conviértete en desarrollador Angular",
+      titleTraining2: "Conviértete en desarrollador Angular",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearning-convierteteendesarrolladorangular.jpeg"
+    },
+    {
+      index: 64,
+      titleTraining: "Angular: Trucos",
+      titleTraining2: "Angular: Trucos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningangulartrucos.jpeg"
+    },
+    {
+      index: 63,
+      titleTraining: "Angular Avanzado",
+      titleTraining2: "Angular Avanzado",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningangularavanzado.jpeg"
+    },
+    {
+      index: 62,
+      titleTraining: "GitHub para programadores",
+      titleTraining2: "GitHub para programadores",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearninggitHubparaprogramadores.jpeg"
+    },
+    {
+      index: 61,
+      titleTraining: "Desarrollo full-stack: Configuración de proyectos",
+      titleTraining2: "Desarrollo full-stack práctico: Configuración profesional de proyectos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningdesarrollofullstackpracticoconfiguracionprofesionaldeproyectos.jpeg"
+    },
+    {
+      index: 60,
+      titleTraining: "Fundamentos del desarrollo web: Full Stack o Front-end",
+      titleTraining2: "Fundamentos del desarrollo web: Full Stack o Front-end",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningfundamentosdeldesarrollowebfullstackofrontend.jpeg"
+    },
+    {
+      index: 59,
+      titleTraining: "Conviértete en desarrollador web front-end",
+      titleTraining2: "Conviértete en desarrollador web front-end",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningconvierteteendesarrolladorwebfrontend.jpeg"
+    },
+    {
+      index: 58,
+      titleTraining: "Fundamentos del teletrabajo",
+      titleTraining2: "Fundamentos del teletrabajo",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningfundamentosdelteletrabajo.jpeg"
+    },
+    {
+      index: 57,
+      titleTraining: "Getting Things Done. Organízate con eficacia",
+      titleTraining2: "Getting Things Done. Organízate con eficacia",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearninggettingthingsdone.jpeg"
+    },
+    {
+      index: 56,
+      titleTraining: "SCRUM: Roles",
+      titleTraining2: "SCRUM: Roles",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningscrum roles.jpeg"
+    },
+    {
+      index: 55,
+      titleTraining: "Aprende SCRUM",
+      titleTraining2: "Aprende SCRUM",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningaprendeSCRUM.jpeg"
+    },
+    {
+      index: 54,
+      titleTraining: "VueJS Esencial",
+      titleTraining2: "VueJS Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningvuejsesencial.jpeg"
+    },
+    {
+      index: 53,
+      titleTraining: "Typescript 2 Esencial",
+      titleTraining2: "Typescript 2 Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningtypescript2esencial.jpeg"
+    },
+    {
+      index: 52,
+      titleTraining: "Angular Esencial",
+      titleTraining2: "Angular Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningangularesencial.jpeg"
+    },
+    {
+      index: 51,
+      titleTraining: "React Esencial",
+      titleTraining2: "React Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningreactesencial.jpeg"
+    },
+    {
+      index: 50,
+      titleTraining: "CSS con SASS esencial",
+      titleTraining2: "CSS con SASS esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcssconsassesencial.jpeg"
+    },
+    {
+      index: 49,
+      titleTraining: "CSS Avanzado",
+      titleTraining2: "CSS Avanzado",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcssavanzado.jpeg"
+    },
+    {
+      index: 48,
+      titleTraining: "CSS Esencial",
+      titleTraining2: "CSS Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcssconsassesencial.jpeg"
+    },
+    {
+      index: 47,
+      titleTraining: "Aprende semántica web",
+      titleTraining2: "Aprende semántica web",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcssesencial.jpeg"
+    },
+    {
+      index: 46,
+      titleTraining: "HTML Avanzado",
+      titleTraining2: "HTML Avanzado",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtmlavanzado.jpeg"
+    },
+    {
+      index: 45,
+      titleTraining: "HTML Esencial",
+      titleTraining2: "HTML Esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtmlesencial.jpeg"
+    },
+    {
+      index: 44,
+      titleTraining: "Fundamentos Programación: Diseño orientado a objetos",
+      titleTraining2: "Fundamentos de la programación: Diseño orientado a objetos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearning-fundamentosprogramaciondisenoorientadoobjetos.jpeg"
+    },
+    {
     index: 43,
     titleTraining: "Desarrollador Javascript",
     titleTraining2: "Conviértete en Desarrollador Javascript",
@@ -311,7 +655,7 @@ export class TrainingComponent implements OnInit {
     titleTraining2: "Curso de Habilidades de Marketing Personal",
     institution: "Confenalco Antioquia",
     end: "2018",
-    imagePath: "../../../assets/img/no-image.png"
+    imagePath: "../../../assets/img/documents/confenalco-cursohabilidadesmarketingpersonal.jpeg"
   },
   {
     index: 5,
@@ -333,7 +677,7 @@ export class TrainingComponent implements OnInit {
     index: 3,
     titleTraining: "Soporte Aba (Internet Banda Ancha)",
     titleTraining2: "Soporte Aba (Internet Banda Ancha)",
-    institution: "SEAtento – CANTVNA",
+    institution: "Atento – CANTV",
     end: "2010",
     imagePath: "../../../assets/img/no-image.png"
   },
