@@ -10,6 +10,46 @@ export class TrainingComponent implements OnInit {
   titlePage = "Formación";
   trainingList:object[] = [
     {
+      index: 91,
+      titleTraining: "Conviértete en desarrollador PHP",
+      titleTraining2: "Conviértete en desarrollador PHP",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedinlearningconvierteteendesarrolladorphp.jpeg"
+    },
+    {
+      index: 90,
+      titleTraining: "PHP: Frameworks MVC para aplicaciones web",
+      titleTraining2: "PHP: Frameworks MVC para aplicaciones web",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningphpframeworksmvcparaaplicacionesweb.jpeg"
+    },
+    {
+      index: 89,
+      titleTraining: "Pensamiento Computacional",
+      titleTraining2: "Pensamiento Computacional",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningpensamientocomputacional.jpeg"
+    },
+    {
+      index: 88,
+      titleTraining: "PHP: Gestión de datos",
+      titleTraining2: "PHP: Gestión de datos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedinlearningphpysqlestiondedatos.jpeg"
+    },
+    {
+      index: 87,
+      titleTraining: "PHP: Seguridad",
+      titleTraining2: "PHP: Seguridad",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedinlearningphpseguridad.jpeg"
+    },
+    {
       index: 86,
       titleTraining: "Diseño de interfaz (UI) esencial",
       titleTraining2: "Diseño de interfaz (UI) esencial",
