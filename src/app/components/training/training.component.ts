@@ -10,6 +10,62 @@ export class TrainingComponent implements OnInit {
   titlePage = "Formación";
   trainingList:object[] = [
     {
+      index: 98,
+      titleTraining: "Desarrollos Web y de Aplicaciones Móviles",
+      titleTraining2: "Desarrollos Web y de Aplicaciones Móviles en entornos Front-end",
+      institution: "University Everis - Sena",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/senaeverisdesarrollowebydeaplicacionesmovilesenentornosfrontend.jpeg"
+    },
+    {
+      index: 97,
+      titleTraining: "Aplicación de Metodologías Devops",
+      titleTraining2: "Aplicación de Metodologías Devops para el Desarrollo de Software",
+      institution: "University Everis - Sena",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/senaeverisaplicacióndemetodologíasdevopsparaeldesarrollodecoftware.jpeg"
+    },
+    {
+      index: 96,
+      titleTraining: "Domina CSS",
+      titleTraining2: "Domina CSS",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningdominacss.jpeg"
+    },
+    {
+      index: 95,
+      titleTraining: "CSS avanzado: 12 trucos",
+      titleTraining2: "CSS avanzado: 12 trucos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcssavanzado12trucos.jpeg"
+    },
+    {
+      index: 94,
+      titleTraining: "CSS: Diseño web responsive",
+      titleTraining2: "CSS: Diseño web responsive",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcsscisenowebresponsive.jpeg"
+    },
+    {
+      index: 93,
+      titleTraining: "CSS: Degradados",
+      titleTraining2: "CSS: Degradados",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcssdegradados.jpeg"
+    },
+    {
+      index: 92,
+      titleTraining: "CSS: 50 trucos",
+      titleTraining2: "CSS: 50 trucos",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningcss50trucos.jpeg"
+    },
+    {
       index: 91,
       titleTraining: "Conviértete en desarrollador PHP",
       titleTraining2: "Conviértete en desarrollador PHP",
