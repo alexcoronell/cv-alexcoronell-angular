@@ -9,6 +9,119 @@ export class TrainingComponent implements OnInit {
 
   titlePage = "Formación";
   trainingList:object[] = [
+
+    {
+      index: 112,
+      titleTraining: "Conviértete en desarrollador WordPress",
+      titleTraining2: "Conviértete en desarrollador WordPress",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningconvierteteendesarrolladorwordpress.jpeg"
+    },
+    {
+      index: 111,
+      titleTraining: "WordPress: 25 plugins imprescindibles",
+      titleTraining2: "WordPress: 25 plugins imprescindibles",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordpress25pluginsimprescindibles.jpeg"
+    },
+    {
+      index: 110,
+      titleTraining: "WordPress práctico: Sitios Multilingües",
+      titleTraining2: "WordPress práctico: Sitios Multilingües",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordpresspracticositiosmultilingues.jpeg"
+    },
+    {
+      index: 109,
+      titleTraining: "WordPress práctico: SEO",
+      titleTraining2: "WordPress práctico: SEO",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordpressavanzadoseo.jpeg"
+    },
+    {
+      index: 108,
+      titleTraining: "WordPress: Seguridad",
+      titleTraining2: "WordPress: Seguridad",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordpressseguridad.jpeg"
+    },
+    {
+      index: 107,
+      titleTraining: "WordPress con Sass y Gulp",
+      titleTraining2: "WordPress con Sass y Gulp",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordpressconsassygulp.jpeg"
+    },
+    {
+      index: 106,
+      titleTraining: "jQuery para Diseñadores",
+      titleTraining2: "jQuery para Diseñadores",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningjqueryparadisenadores.jpeg"
+    },
+    {
+      index: 105,
+      titleTraining: "WordPress Catalogo con WooCommerce",
+      titleTraining2: "WordPress Catalogo con WooCommerce",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordpresscatalogoconwoocommerce.jpeg"
+    },
+    {
+      index: 104,
+      titleTraining: "Fundamentos del comercio electronico WooCommerce en WordPress",
+      titleTraining2: "Fundamentos del comercio electronico WooCommerce en WordPress",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningfundamentosdelcomercioelectronicowoocommerceenwordPress.jpeg"
+    },
+    {
+      index: 103,
+      titleTraining: "WordPress Práctico: Creación Avanzada de Temas",
+      titleTraining2: "WordPress Práctico: Creación Avanzada de Temas",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordPresspracticocreacionavanzadadetemas.jpeg"
+    },
+    {
+      index: 102,
+      titleTraining: "WordPress Práctico: Creación Básica de Temas",
+      titleTraining2: "WordPress Práctico: Creación Básica de Temas",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordPresspracticocreacionbasicadetemas.jpeg"
+    },
+    {
+      index: 101,
+      titleTraining: "WordPress 5 esencial",
+      titleTraining2: "WordPress 5 esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordPress5esencial.jpeg"
+    },
+    {
+      index: 100,
+      titleTraining: "WordPress 4 esencial",
+      titleTraining2: "WordPress 4 esencial",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningwordPress4esencial.jpeg"
+    },
+    {
+      index: 99,
+      titleTraining: "Fundamentos de los CMS",
+      titleTraining2: "Fundamentos de los CMS",
+      institution: "Linkedin Learning",
+      end: "2020",
+      imagePath: "../../../assets/img/documents/linkedInlearningfundamentosdeloscms.jpeg"
+    },
     {
       index: 98,
       titleTraining: "Desarrollos Web y de Aplicaciones Móviles",
