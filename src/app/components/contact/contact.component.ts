@@ -17,6 +17,9 @@ export class ContactComponent implements OnInit {
   githubTitle = "Github";
   githubUrlTitle = "github.com/alexcoronell";
   githubUrl = "http://github.com/alexcoronell";
+  gitLabTitle = "GitLab";
+  gitLabUrlTitle = "gitlab.com/alexcoronell";
+  gitLabUrl = "https://gitlab.com/alexcoronell";
 
   constructor() { }
 

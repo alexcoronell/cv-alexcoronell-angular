@@ -25,6 +25,8 @@
                     </div>
                 </form>
             </div>
+
+            <!-- Contacto Email -->
             <div class="col-12 col-md 4 container dataContact">
                 <article class="row mb-3 mt-3">
                     <div class="col-3 col-md-4">
@@ -37,6 +39,7 @@
                     </div>
                 </article>
 
+                <!-- Contacto LinkeIn -->
                 <article class="row mb-3 mt-3">
                     <div class="col-3 col-md-4">
                         <a [href]='linkedinUrl' target="_blank" class="urlContact" [title]='linkedinTitle'>
@@ -48,6 +51,7 @@
                     </div>
                 </article>
 
+                <!-- Contacto Guthub -->
                 <article class="row mb-3 mt-3">
                     <div class="col-3 col-md-4">
                         <a [href]='githubUrl' target="_blank" class="urlContact" [title]='githubTitle'>
@@ -56,6 +60,18 @@
                     </div>
                     <div class="col-9 col-md-8">
                         <h4 class="titleContact">{{ githubUrlTitle }}</h4>
+                    </div>
+                </article>
+
+                <!-- Contacto GitLab -->
+                <article class="row mb-3 mt-3">
+                    <div class="col-3 col-md-4">
+                        <a [href]='gitLabUrl' target="_blank" class="urlContact" [title]='gitLabTitle'>
+                            <img src="../../../assets/img/gitlab_circle.svg" alt="" class="img-fluid ico-contact">
+                        </a>
+                    </div>
+                    <div class="col-9 col-md-8">
+                        <h4 class="titleContact">{{ gitLabUrlTitle }}</h4>
                     </div>
                 </article>
             </div>
