@@ -14,6 +14,7 @@ import { StudiesComponent } from './components/studies/studies.component';
 import { TrainingComponent } from './components/training/training.component';
 import { MyworkComponent } from './components/mywork/mywork.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 const routes: Routes = [
@@ -23,7 +24,8 @@ const routes: Routes = [
   {path: 'training', component: TrainingComponent},
   {path: 'mywork', component: MyworkComponent},
   {path: 'contact', component: ContactComponent},
-  {path: '**', redirectTo: ''}
+  {path: 'notfound', component: NotFoundComponent},
+  {path: '**', redirectTo: 'notfound'}
 ];
 
 @NgModule({
@@ -36,7 +38,8 @@ const routes: Routes = [
     StudiesComponent,
     TrainingComponent,
     MyworkComponent,
-    ContactComponent
+    ContactComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

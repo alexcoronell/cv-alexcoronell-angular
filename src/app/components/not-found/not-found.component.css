@@ -1,0 +1,23 @@
+.notfound_section {
+    height: 80Vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notfound_img {
+    width: 300px !important;
+}
+
+.notfound_img img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .notfound_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
