@@ -22,7 +22,8 @@ const routes: Routes = [
   {path: 'studies', component: StudiesComponent},
   {path: 'training', component: TrainingComponent},
   {path: 'mywork', component: MyworkComponent},
-  {path: 'contact', component: ContactComponent}
+  {path: 'contact', component: ContactComponent},
+  {path: '**', redirectTo: ''}
 ];
 
 @NgModule({
