@@ -11,6 +11,70 @@ export class TrainingComponent implements OnInit {
   trainingList:object[] = [
 
     {
+      index: 120,
+      titleTraining: "Amplía tus conocimientos como desarrollador front-end",
+      titleTraining2: "Amplía tus conocimientos como desarrollador front-end: HTML y CSS",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningampliatusconocimientoscomodesarrolladorwebfrontendhtmlycss.jpeg"
+    },
+    {
+      index: 119,
+      titleTraining: "CSS práctico: Maquetación de landing page",
+      titleTraining2: "CSS práctico: Maquetación de landing page",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningCSSpracticomaquetaciondelandingpage.jpeg"
+    },
+    {
+      index: 118,
+      titleTraining: "CSS3: Animación, transformaciones y transiciones",
+      titleTraining2: "CSS3: Animación, transformaciones y transiciones",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningCSS3animaciontransformacionesytransiciones.jpeg"
+    },
+    {
+      index: 117,
+      titleTraining: "HTML5 y CSS3 práctico: Formularios de login y registro",
+      titleTraining2: "HTML5 y CSS3 práctico: Formularios de login y registro",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtml5ycss3practicoformulariosdeloginyregistro.jpeg"
+    },
+    {
+      index: 116,
+      titleTraining: "HTML5: Animación e interactividad con canvas",
+      titleTraining2: "HTML5: Animación e interactividad con canvas",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtml5animacioneinteractividadconcanvas.jpeg"
+    },
+    {
+      index: 115,
+      titleTraining: "HTML5 práctico: Agenda",
+      titleTraining2: "HTML5 práctico: Agenda",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtml5practicoagenda.jpeg"
+    },
+    {
+      index: 114,
+      titleTraining: "HTML5 práctico: Visualización de datos",
+      titleTraining2: "HTML5 práctico: Visualización de datos",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtml5practicovisualizaciondedatos.jpeg"
+    },
+    {
+      index: 113,
+      titleTraining: "HTML5 práctico: Scroll y presentación de contenidos",
+      titleTraining2: "HTML5 práctico: Scroll y presentación de contenidos",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearninghtml5practicoscrollypresentaciondecontenidos.jpeg"
+    },
+    {
       index: 112,
       titleTraining: "Conviértete en desarrollador WordPress",
       titleTraining2: "Conviértete en desarrollador WordPress",
