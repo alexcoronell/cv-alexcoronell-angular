@@ -8,6 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class ContactComponent implements OnInit {
   tittlePage = "Contacto";
 
+  regularExpressions:object = {
+    name: /^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/, // Letras y espacios, pueden llevar acentos.
+    email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+    phone: /^\d{7,14}$/ // 7 a 14 numeros.
+  }
+
+  dataForm:object = {
+    name: '',
+    phone: '',
+    email: '',
+    message: ''
+  }
+
   emailTitle = "Correo Electrónico";
   emailUrl = "mailto:alexcoronell@gmail.com";
   emailUrlTitle = "alexcoronell@gmail.com";

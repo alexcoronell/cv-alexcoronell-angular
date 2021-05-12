@@ -13,6 +13,16 @@
 #contact .myform .form-group>button {
     border-radius: 0 !important;
     border: 1px solid #27292b !important;
+    outline: none;
+}
+
+.form-control {
+    outline: none;
+}
+
+.form-control:focus {
+    /* box-shadow: 0px 0px 18px -10px rgba(0, 0, 0, 0.75); */
+    box-shadow: none;
 }
 
 #contact .myform .form-group>button {
