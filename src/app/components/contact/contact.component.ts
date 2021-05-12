@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { debounceTime } from 'rxjs/operators';
 
 @Component({
   selector: 'app-contact',
@@ -7,19 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
   tittlePage = "Contacto";
-
-  regularExpressions:object = {
-    name: /^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/, // Letras y espacios, pueden llevar acentos.
-    email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-    phone: /^\d{7,14}$/ // 7 a 14 numeros.
-  }
-
-  dataForm:object = {
-    name: '',
-    phone: '',
-    email: '',
-    message: ''
-  }
+  form: FormGroup;
 
   emailTitle = "Correo Electrónico";
   emailUrl = "mailto:alexcoronell@gmail.com";
@@ -34,9 +25,73 @@ export class ContactComponent implements OnInit {
   gitLabUrlTitle = "gitlab.com/alexcoronell";
   gitLabUrl = "https://gitlab.com/alexcoronell";
 
-  constructor() { }
+  Success:boolean = false;
+  ErrorSend:boolean = false;
+  urlMail:string = '../../../assets/php/mail.php';
+
+  data = {
+    name: '',
+    phone: '',
+    email: '',
+    message: ''
+  };
+  
+
+  constructor(
+    private formBuilder: FormBuilder,
+    private router: Router
+     ) {
+    this.buildForm();
+  }
 
   ngOnInit(): void {
+    
+  }
+
+  private buildForm() {
+    this.form = this.formBuilder.group({
+      name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(30)]],
+      phone: ['', [Validators.required]],
+      email: ['', [Validators.required, Validators.email]],
+      message: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(300)]]
+    })
+    this.form.valueChanges
+      .pipe(
+        debounceTime(500)
+      )
+  }
+
+  save(event: Event) {
+    event.preventDefault();
+    if(this.form.valid) {
+      const value = this.form.value;
+      const optionsMail = {
+        method: "POST",
+        dataType: "json",
+        data: this.form.value
+      }
+      console.log(value);
+      fetch(this.urlMail, optionsMail)
+        .then(res => {
+          this.Success = true;
+          setTimeout(() => {
+            this.Success = false;
+            this.data.name = '';
+            this.data.phone = '';
+            this.data.email = '';
+            this.data.message = '';
+            this.form.markAsUntouched();
+          }, 3000);
+        })
+        .catch(error => {
+          this.ErrorSend = true;
+          setTimeout(() => {
+            this.ErrorSend = false;
+          }, 3500);
+        })
+    }
   }
 
 }
+
+

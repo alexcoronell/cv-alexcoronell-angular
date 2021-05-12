@@ -21,12 +21,29 @@
 }
 
 .form-control:focus {
-    /* box-shadow: 0px 0px 18px -10px rgba(0, 0, 0, 0.75); */
     box-shadow: none;
 }
 
 #contact .myform .form-group>button {
     width: 100%;
+}
+
+.is-invalid {
+    box-shadow: 0px 0px 25px -10px rgba(206, 0, 0, 0.75) !important;
+}
+
+.errorBox {
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    right: 0;
+    color: rgba(206, 0, 0) !important;
+}
+
+.errorMessageTextArea {
+    top: -1.7rem
 }
 
 .ico-contact {
@@ -41,6 +58,28 @@
 .titleContact {
     margin-bottom: 0;
     line-height: 50px;
+}
+
+.success,
+.errorSend {
+    background-color: #27292b;
+    color: white !important;
+    padding: .6rem;
+    text-align: center;
+    width: 250px;
+    position: fixed;
+    left: 50%;
+    margin-left: -125px;
+    top: 45%;
+    bottom: auto;
+    border: none;
+    border-radius: 0;
+    z-index: 1000;
+    transition: all .5s linear;
+}
+
+.errorSend {
+    background-color: rgba(206, 0, 0)
 }
 
 @media (max-width: 576px) {
