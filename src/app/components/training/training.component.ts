@@ -11,7 +11,63 @@ export class TrainingComponent implements OnInit {
   trainingList:object[] = [
 
     {
-      index: 120,
+      index: 129,
+      titleTraining: "Universidad Javascript",
+      titleTraining2: "Universidad Javascript - De Cero a Master en Javascript",
+      institution: "Udemy",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/udemyuniversidadjavascript2021deceroamaster.jpeg"
+    },
+    {
+      index: 128,
+      titleTraining: "React desde cero",
+      titleTraining2: "React desde cero",
+      institution: "Udemy",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/udemyreactdesdecero.jpg"
+    },
+    {
+      index: 127,
+      titleTraining: "Lógica de programación",
+      titleTraining2: "Lógica de programación: Aprende a programar en cualquier lenguaje",
+      institution: "Udemy",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/udemylogicadeprogramacion.jpeg"
+    },
+    {
+      index: 126,
+      titleTraining: "Python: Mejora tu desarrollo",
+      titleTraining2: "Python: Mejora tu desarrollo",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningpythonmejoratudesarrollo.jpeg"
+    },
+    {
+      index: 125,
+      titleTraining: "Python avanzado",
+      titleTraining2: "Python avanzado",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningpythonavanzado.jpeg"
+    },
+    {
+      index: 124,
+      titleTraining: "Python esencial",
+      titleTraining2: "Python esencial",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningpythonesencial.jpeg"
+    },
+    {
+      index: 123,
+      titleTraining: "Docker esencial",
+      titleTraining2: "Docker esencial",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningdockeresencial.jpeg"
+    },
+    {
+      index: 122,
       titleTraining: "Amplía tus conocimientos como desarrollador front-end",
       titleTraining2: "Amplía tus conocimientos como desarrollador front-end: HTML y CSS",
       institution: "Linkedin Learning",
@@ -19,7 +75,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningampliatusconocimientoscomodesarrolladorwebfrontendhtmlycss.jpeg"
     },
     {
-      index: 119,
+      index: 121,
       titleTraining: "CSS práctico: Maquetación de landing page",
       titleTraining2: "CSS práctico: Maquetación de landing page",
       institution: "Linkedin Learning",
@@ -27,7 +83,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningCSSpracticomaquetaciondelandingpage.jpeg"
     },
     {
-      index: 118,
+      index: 120,
       titleTraining: "CSS3: Animación, transformaciones y transiciones",
       titleTraining2: "CSS3: Animación, transformaciones y transiciones",
       institution: "Linkedin Learning",
@@ -35,7 +91,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningCSS3animaciontransformacionesytransiciones.jpeg"
     },
     {
-      index: 117,
+      index: 119,
       titleTraining: "HTML5 y CSS3 práctico: Formularios de login y registro",
       titleTraining2: "HTML5 y CSS3 práctico: Formularios de login y registro",
       institution: "Linkedin Learning",
@@ -43,7 +99,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearninghtml5ycss3practicoformulariosdeloginyregistro.jpeg"
     },
     {
-      index: 116,
+      index: 118,
       titleTraining: "HTML5: Animación e interactividad con canvas",
       titleTraining2: "HTML5: Animación e interactividad con canvas",
       institution: "Linkedin Learning",
@@ -51,7 +107,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearninghtml5animacioneinteractividadconcanvas.jpeg"
     },
     {
-      index: 115,
+      index: 117,
       titleTraining: "HTML5 práctico: Agenda",
       titleTraining2: "HTML5 práctico: Agenda",
       institution: "Linkedin Learning",
@@ -59,7 +115,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearninghtml5practicoagenda.jpeg"
     },
     {
-      index: 114,
+      index: 116,
       titleTraining: "HTML5 práctico: Visualización de datos",
       titleTraining2: "HTML5 práctico: Visualización de datos",
       institution: "Linkedin Learning",
@@ -67,7 +123,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearninghtml5practicovisualizaciondedatos.jpeg"
     },
     {
-      index: 113,
+      index: 115,
       titleTraining: "HTML5 práctico: Scroll y presentación de contenidos",
       titleTraining2: "HTML5 práctico: Scroll y presentación de contenidos",
       institution: "Linkedin Learning",
@@ -75,7 +131,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearninghtml5practicoscrollypresentaciondecontenidos.jpeg"
     },
     {
-      index: 112,
+      index: 114,
       titleTraining: "Conviértete en desarrollador WordPress",
       titleTraining2: "Conviértete en desarrollador WordPress",
       institution: "Linkedin Learning",
@@ -83,7 +139,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningconvierteteendesarrolladorwordpress.jpeg"
     },
     {
-      index: 111,
+      index: 113,
       titleTraining: "WordPress: 25 plugins imprescindibles",
       titleTraining2: "WordPress: 25 plugins imprescindibles",
       institution: "Linkedin Learning",
@@ -91,7 +147,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningwordpress25pluginsimprescindibles.jpeg"
     },
     {
-      index: 110,
+      index: 112,
       titleTraining: "WordPress práctico: Sitios Multilingües",
       titleTraining2: "WordPress práctico: Sitios Multilingües",
       institution: "Linkedin Learning",
@@ -99,7 +155,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningwordpresspracticositiosmultilingues.jpeg"
     },
     {
-      index: 109,
+      index: 111,
       titleTraining: "WordPress práctico: SEO",
       titleTraining2: "WordPress práctico: SEO",
       institution: "Linkedin Learning",
@@ -107,7 +163,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningwordpressavanzadoseo.jpeg"
     },
     {
-      index: 108,
+      index: 110,
       titleTraining: "WordPress: Seguridad",
       titleTraining2: "WordPress: Seguridad",
       institution: "Linkedin Learning",
@@ -115,7 +171,7 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningwordpressseguridad.jpeg"
     },
     {
-      index: 107,
+      index: 109,
       titleTraining: "WordPress con Sass y Gulp",
       titleTraining2: "WordPress con Sass y Gulp",
       institution: "Linkedin Learning",
@@ -123,9 +179,25 @@ export class TrainingComponent implements OnInit {
       imagePath: "../../../assets/img/documents/linkedInlearningwordpressconsassygulp.jpeg"
     },
     {
-      index: 106,
+      index: 108,
       titleTraining: "jQuery para Diseñadores",
       titleTraining2: "jQuery para Diseñadores",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedInlearningsqlserver2016basesdedatosenlapractica.jpeg"
+    },
+    {
+      index: 107,
+      titleTraining: "SQL Server: Desarrollo de Bases de Datos",
+      titleTraining2: "SQL Server: Desarrollo de Bases de Datos",
+      institution: "Linkedin Learning",
+      end: "2021",
+      imagePath: "../../../assets/img/documents/linkedinlearningsqlserver2016desarrollodebasesdedatos.jpeg"
+    },
+    {
+      index: 106,
+      titleTraining: "SQL Server: Bases de Datos en la práctica",
+      titleTraining2: "SQL Server: Bases de Datos en la práctica",
       institution: "Linkedin Learning",
       end: "2021",
       imagePath: "../../../assets/img/documents/linkedInlearningjqueryparadisenadores.jpeg"
